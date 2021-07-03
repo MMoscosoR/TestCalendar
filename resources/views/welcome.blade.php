@@ -3,6 +3,15 @@
     <link rel="stylesheet" href="/pluggins/fullcalendar/main.css">
 @endsection
 @section('contenido')
+    <div class="instrucciones">
+        <div class="alert alert-primary" role="alert">
+            <ul>
+                <li>Para crear dar click en una celda</li>
+                <li>Para editar click sobre un evento programado</li>
+                <li>Para eliminar dentro del formulario tiene la opcion de eliminar</li>
+            </ul>
+        </div>
+    </div>
         <div id="calendar"></div>
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
